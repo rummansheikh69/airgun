@@ -17,13 +17,13 @@ export default async function ProductPage({ params }) {
 
   // Now fetch product
   const productRes = await fetch(
-    `http://localhost:4001/api/utils/product/${productId}`,
+    `http://api.airgunbd.com/api/utils/product/${productId}`,
   );
   const product = await productRes.json();
 
   // Fetch reviews
   const reviewsRes = await fetch(
-    `http://localhost:4001/api/utils/reviews/${productId}`,
+    `http://api.airgunbd.com/api/utils/reviews/${productId}`,
   );
   const reviews = await reviewsRes.json();
 
