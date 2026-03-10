@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:4001/api",
+  baseURL: "https://api.airgunbd.com/api",
   withCredentials: true,
 });
