@@ -38,6 +38,7 @@ app.use(
       `${process.env.CLIENT_URL}`,
       "http://localhost:3001",
       "https://www.airgunbd.com",
+      "https://airgunbd.com",
     ],
     credentials: true,
   }),
