@@ -36,17 +36,8 @@ export default function Footer() {
     <footer className="bg-subMain">
       {/* ================= TOP CONTACT BAR ================= */}
       <div className="max-w-6xl mx-auto bg-subMain pt-8 px-3 md:px-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 border-b border-border pb-10">
-          {/* Visit Us */}
-          <div className="flex items-center gap-4">
-            <FaMapMarkerAlt className="text-gray-600 text-lg" />
-            <div>
-              <h4 className="text-sm font-semibold text-gray-800">Visit Us</h4>
-              <p className="text-sm text-gray-600">
-                Dhukuriabera, Belkuchi, Sirajganj.
-              </p>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 border-b border-border pb-10">
+         
 
           {/* Call Us */}
           <div className="flex items-center gap-4">
